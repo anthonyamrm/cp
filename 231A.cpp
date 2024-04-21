@@ -11,9 +11,7 @@ for(int i=0;i<n;i++){
     cin >> a >> b >> c;
     if(a && b && c){
        r++; 
-    }
-
-    else if((a && b) || (a && c) || (b && c)){
+    }else if((a && b) || (a && c) || (b && c)){
         r++;
     }
 }
